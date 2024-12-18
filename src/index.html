@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../scss/style.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../scss/custom.scss" />
   </head>
   <body>
     <div class="container">
@@ -69,7 +75,90 @@
         </p>
       </div>
     </div>
+    <div class="container pt-3">
+      <div class="row mt-5">
+        <div class="col-sm">
+          <div class="card">
+            <img
+              src="../assets/building1.ddf65f44.jpg"
+              class="card-img-top"
+              alt="Large Building"
+            />
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                pariatur, eum deserunt consequuntur illum facilis!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <img
+              src="../assets/building2.67c5fb0d.jpg"
+              class="card-img-top"
+              alt="Large Building"
+            />
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Corrupti non nesciunt exercitationem cupiditate, nostrum atque.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <img
+              src="../assets/building3.fda5fb6f.jpg"
+              class="card-img-top"
+              alt="Large Building"
+            />
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Obcaecati cupiditate ducimus rem libero totam quos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <script src="./index.js"></script>
+      <div class="row mt-5">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h2 class="mb-5">Join our mailing list:</h2>
+        </div>
+
+        <div class="col-sm">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+
+        <div class="col-12 col-md-2">
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="margin-top: 2em; width: 100%"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

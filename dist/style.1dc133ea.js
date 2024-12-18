@@ -168,15 +168,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/nazmu/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../fonts.css/fonts.css":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/nazmu/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\poppins-v22-latin-regular.woff2":[["poppins-v22-latin-regular.782ce010.woff2","../fonts/poppins-v22-latin-regular.woff2"],"../fonts/poppins-v22-latin-regular.woff2"],"./..\\fonts\\poppins-v22-latin-500.woff2":[["poppins-v22-latin-500.91df8cc4.woff2","../fonts/poppins-v22-latin-500.woff2"],"../fonts/poppins-v22-latin-500.woff2"],"./..\\fonts\\poppins-v22-latin-700.woff2":[["poppins-v22-latin-700.25e0eaff.woff2","../fonts/poppins-v22-latin-700.woff2"],"../fonts/poppins-v22-latin-700.woff2"],"_css_loader":"C:/Users/nazmu/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../scss/style.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"../fonts.css/fonts.css":"../fonts.css/fonts.css","./..\\assets\\abstract.91fe92b5.jpg":[["abstract.91fe92b5.671af6be.jpg","../assets/abstract.91fe92b5.jpg"],"../assets/abstract.91fe92b5.jpg"],"_css_loader":"C:/Users/nazmu/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/nazmu/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\assets\\abstract.91fe92b5.jpg":[["abstract.91fe92b5.671af6be.jpg","../assets/abstract.91fe92b5.jpg"],"../assets/abstract.91fe92b5.jpg"],"_css_loader":"C:/Users/nazmu/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/nazmu/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -201,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57254" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64145" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
